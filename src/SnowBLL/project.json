@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0-*",
+  "description": "Class Library",
+    "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "dnxcore50",
+        "portable-net45+win8"
+      ]
+    }
+  },
+
+  "dependencies": {
+    "SnowDAL": "1.0.0-*",
+    "AutoMapper.Data": "1.0.0-beta1",
+    "FluentValidation": "6.2.1-beta1",
+    "System.Security.Claims": "4.0.1",
+    "System.Private.ServiceModel": "4.0.0",
+    "Microsoft.IdentityModel.Tokens": "5.0.0",
+    "System.IdentityModel.Tokens.Jwt": "5.0.0",
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation": "1.0.0",
+    "Microsoft.EntityFrameworkCore": "1.0.0",
+    "EmailSender": "1.0.0-*",
+  }
+}
